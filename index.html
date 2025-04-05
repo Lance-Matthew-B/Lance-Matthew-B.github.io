@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="loading"></div>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Lance Matthew Blanco</h1>
+            <h2>Front End Developer</h2>
+            <p>Creating simple but responsive web</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>My journey in web development started during my college days. I was fascinated by the power of technology to transform ideas into functional and beautiful websites. Over the years, I have honed my skills and gained experience in various web development frameworks and languages.</p>
+            </div>
+            <div class="about-image">
+                <img src="Portfoliopp.png" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Semantic markup and accessibility</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Responsive design and animations</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interactive functionality</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p>Component-based development</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Previous Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="IRB.png" alt="Project 1">
+                <h3>Recipe Book Website</h3>
+                <p>A Recipe Book webiste built with html only.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Live</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="port.png" alt="Project 2">
+                <h3>Portfolio Website</h3>
+                <p>A modern portfolio website with smooth animations and responsive design</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Live</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="Arduino.png" alt="Project 3">
+                <h3>Smoke Detector</h3>
+                <p>A Arduino based smoke detector.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Live</a>
+                    <a href="#" class="project-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <form class="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>lancematthew.blanco03@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>09389999086</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Iloilo City, Philippines</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 Lance Matthew Blanco. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
