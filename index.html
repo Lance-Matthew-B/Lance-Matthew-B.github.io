@@ -1,145 +1,398 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body>
-    <div class="loading"></div>
-    <nav class="navbar">
-        <div class="logo">Portfolio</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lance Blanco</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <link
+      rel="stylesheet"
+      href="main.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <div class="container container-lg">
+        <div class="header-nav">
+          <a
+            href="#home"
+            class="logo"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            >
+            ></a
+          >
+          <nav id="nav" class="nav">
+            <ul class="nav-list" data-aos="fade-down" data-aos-duration="1000">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Works</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="img/icons/open.svg"
+                alt="Navigation button"
+              />
+            </button>
+          </nav>
         </div>
-    </nav>
+      </div>
+    </header>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Lance Matthew Blanco</h1>
-            <h2>Front End Developer</h2>
-            <p>Creating simple but responsive web</p>
-            <a href="#contact" class="cta-button">Get in Touch</a>
+      <div class="container container-lg">
+        <div
+          class="hero-row"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
+          <div class="hero-content">
+            <span class="hero-greeting"> Hello, I am</span>
+            <h1 class="hero-heading">Lance Matthew</h1>
+            <span class="hero-heading-subtitle">
+              UI/UX Designer & Front-End Developer
+            </span>
+            <div class="about-social-list">
+              <div class="social-links-row">
+                <a href="#!">
+                  <img
+                    src="img/social_icons/github.svg"
+                    alt="Link to GitHub account"
+                  />
+                </a>
+                <a href="#!">
+                  <img
+                    src="img/social_icons/linkedin.svg"
+                    alt="Link to LinkedIn profile"
+                  />
+                </a>
+                <a href="#!">
+                  <img
+                    src="img/social_icons/xing.svg"
+                    alt="Link to Xing profile"
+                  />
+                </a>
+                <a href="#!">
+                  <img
+                    src="img/social_icons/facebook.svg"
+                    alt="Link to Facebook profile"
+                  />
+                </a>
+                <a href="#!">
+                  <img
+                    src="img/social_icons/instagram.svg"
+                    alt="Link to Instagram profile"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <a href="#projects" class="btn">My Portfolio</a>
+              <a href="#contact" class="btn btn-white">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-img">
+            <img
+              src="img/hero/hero.png"
+              alt="Picture of Christian Buehner taken from Unsplash"
+            />
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="about" class="about">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <div class="about-text">
-                <p>My journey in web development started during my college days. I was fascinated by the power of technology to transform ideas into functional and beautiful websites. Over the years, I have honed my skills and gained experience in various web development frameworks and languages.</p>
-            </div>
-            <div class="about-image">
-                <img src="Portfoliopp.png" alt="Profile Picture">
-            </div>
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">About Me</h2>
         </div>
-    </section>
+        <div class="about-row">
+          <div
+            class="about-content"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <p class="about-descr">
+              Hey, I'm Lance  a 3rd year IT student whos really into graphic
+              design and web development. I love building simple, clean, and
+              creative websites that not only look good but also work smoothly.
+              I enjoy the process of turning ideas into something real, whether
+              its through design or code.
+            </p>
+            <div class="about-download-btn">
+              <a href="#!" class="btn btn-white">Download CV</a>
+            </div>
+          </div>
 
-    <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <i class="fab fa-html5"></i>
-                <h3>HTML5</h3>
-                <p>Semantic markup and accessibility</p>
+          <div
+            class="about-skills"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <div class="skill">
+              <div class="skill-title">Web Design</div>
+              <div class="skill-percent">20%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="20"></div>
+              </div>
             </div>
-            <div class="skill-card">
-                <i class="fab fa-css3-alt"></i>
-                <h3>CSS3</h3>
-                <p>Responsive design and animations</p>
+
+            <div class="skill">
+              <div class="skill-title">HTML & CSS</div>
+              <div class="skill-percent">60%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="60"></div>
+              </div>
             </div>
-            <div class="skill-card">
-                <i class="fab fa-js"></i>
-                <h3>JavaScript</h3>
-                <p>Interactive functionality</p>
+
+            <div class="skill">
+              <div class="skill-title">JavaScript</div>
+              <div class="skill-percent">5%</div>
+              <div class="skill-bar__progress">
+                <div class="skill-bar__fill" data-progress="5"></div>
+              </div>
             </div>
-            <div class="skill-card">
-                <i class="fab fa-react"></i>
-                <h3>React</h3>
-                <p>Component-based development</p>
-            </div>
+          </div>
         </div>
+
+        <div class="services-row">
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="50"
+          >
+            <img class="service-card-img" src="img/services/01.svg" alt="" />
+            <h3 class="service-card-title">UI/UX Design</h3>
+            <p>
+              Crafting intuitive and visually appealing user interfaces that
+              enhance experiences through thoughtful, creative designs.
+            </p>
+          </div>
+
+          <div
+            class="service-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+          >
+            <img class="service-card-img" src="img/services/02.svg" alt="" />
+            <h3 class="service-card-title">Frontend Development</h3>
+            <p>
+              Developing responsive, accessible, and dynamic websites using
+              modern tools to create seamless, engaging experiences.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="projects" class="projects">
-        <h2>Previous Projects</h2>
-        <div class="projects-grid">
-            <div class="project-card">
-                <img src="IRB.png" alt="Project 1">
-                <h3>Recipe Book Website</h3>
-                <p>A Recipe Book webiste built with html only.</p>
-                <div class="project-links">
-                    <a href="#" class="project-link">View Live</a>
-                    <a href="#" class="project-link">GitHub</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="port.png" alt="Project 2">
-                <h3>Portfolio Website</h3>
-                <p>A modern portfolio website with smooth animations and responsive design</p>
-                <div class="project-links">
-                    <a href="#" class="project-link">View Live</a>
-                    <a href="#" class="project-link">GitHub</a>
-                </div>
-            </div>
-            <div class="project-card">
-                <img src="Arduino.png" alt="Project 3">
-                <h3>Smoke Detector</h3>
-                <p>A Arduino based smoke detector.</p>
-                <div class="project-links">
-                    <a href="#" class="project-link">View Live</a>
-                    <a href="#" class="project-link">GitHub</a>
-                </div>
-            </div>
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Works</h2>
         </div>
+
+        <div class="projects-row">
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000"
+          >
+            <a href="#!">
+              <img class="project-img" src="img/works/01.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Recipe Book</h5>
+                  <p class="white">UI/UX Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+          >
+            <a href="#!">
+              <img class="project-img" src="img/works/02.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Portfolio</h5>
+                  <p class="white">UI/UX Design</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="600"
+            data-aos-duration="1000"
+          >
+            <a href="#!">
+              <img class="project-img" src="img/works/03.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">Smoke Detector</h5>
+                  <p class="white">Arduino Uno</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div
+            class="project-box"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="900"
+            data-aos-duration="1000"
+          >
+            <a href="#!">
+              <img class="project-img" src="img/works/05.jpg" alt="" />
+              <div class="project-mask">
+                <div class="project-caption">
+                  <h5 class="white">RenterGo</h5>
+                  <p class="white">UI/UX Design, Web Development</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="contact">
-        <h2>Get in Touch</h2>
-        <div class="contact-content">
-            <form class="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <p>lancematthew.blanco03@gmail.com</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <p>09389999086</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>Iloilo City, Philippines</p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="contact-title">
+          <h2 class="title">Contact</h2>
         </div>
+        <div class="contact-content">
+          <p>
+            Tell me about your project.
+            <br />
+            Let's talk and work together!
+          </p>
+        </div>
+
+        <form class="contactForm" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="input-box">
+            <input type="text" name="name" placeholder="Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <div
+            class="contact-button"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="500"
+            data-aos-duration="1000"
+          >
+            <button class="btn btn-red" name="submit" type="submit">
+              Send Message
+            </button>
+          </div>
+        </form>
+        <div class="response"></div>
+      </div>
     </section>
 
-    <footer>
-        <div class="social-links">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="social-links-row footer-social">
+            <a href="#!">
+              <img
+                src="img/social_icons/github.svg"
+                alt="Link to GitHub account"
+              />
+            </a>
+
+            <a href="#!">
+              <img
+                src="img/social_icons/linkedin.svg"
+                alt="Link to LinkedIn profile"
+              />
+            </a>
+
+            <a href="#!">
+              <img src="img/social_icons/xing.svg" alt="Link to Xing profile" />
+            </a>
+
+            <a href="#!">
+              <img
+                src="img/social_icons/facebook.svg"
+                alt="Link to Facebook profile"
+              />
+            </a>
+
+            <a href="#!">
+              <img
+                src="img/social_icons/instagram.svg"
+                alt="Link to Instagram profile"
+              />
+            </a>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; Copyright Lance 2024</p>
+          </div>
         </div>
-        <p>&copy; 2025 Lance Matthew Blanco. All rights reserved.</p>
+      </div>
     </footer>
 
-    <script src="script.js"></script>
-</body>
-</html> 
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.svg" alt="Back to top" />
+      </a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
